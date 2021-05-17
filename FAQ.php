@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TㅆB News</title>
+  <title>TㅆB FAQ</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,44 +26,23 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="img/bl.jpg"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Newsnonlog.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Statsnonlog.html">Stats</a>
-          </li>
-        </ul>
-      </div>
-      <a href="login.html" class="button" id="button">Login</a>
-    </div>
-  </nav>
-
-  <header class="maincolor text-white py-5">
-    <section class="container text-center">
-      <h1>TㅆB BANK</h1>
-      <p>A Bank for Young Entrepreneur</p>
-    </section>
-  </header>
-
-  <main class="container">
-      <h2>News</h2>
-      <section class ="row justify-content-around cardAlign" id="apiContent"> 
-      </section>
-  </main>
+    <?php include("menu2.php"); ?>
+    </nav>
   
+    <header class="maincolor text-white py-5">
+      <?php include("header.php"); ?>
+    </header>
+
+  <main class="container mt-5">
+  <?php include("question.php"); ?>
+  </main>
+
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/news.js"></script>
+  <script src="js/contact.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
